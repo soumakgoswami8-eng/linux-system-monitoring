@@ -1,0 +1,58 @@
+===========================================
+      Linux System Monitoring Report
+===========================================
+
+Generated On : Tue Jul 28 03:15:51 UTC 2026
+Hostname     : TechTrekker
+User         : bubai
+
+------------ CPU ------------
+top - 03:15:51 up 7 min,  1 user,  load average: 0.03, 0.06, 0.01
+Tasks:  25 total,   1 running,  24 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7763.7 total,   6922.0 free,    479.9 used,    511.9 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7283.8 avail Mem 
+
+------------ Memory ------------
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       479Mi       6.8Gi       3.5Mi       511Mi       7.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+------------ Disk ------------
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.8G     0  3.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.8G  4.0K  3.8G   1% /mnt/wsl
+drivers         476G  130G  347G  28% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.5G  954G   1% /
+none            3.8G   76K  3.8G   1% /mnt/wslg
+none            3.8G     0  3.8G   0% /usr/lib/wsl/lib
+rootfs          3.8G  2.7M  3.8G   1% /init
+none            3.8G  512K  3.8G   1% /run
+none            3.8G     0  3.8G   0% /run/lock
+none            3.8G     0  3.8G   0% /run/shm
+none            3.8G   76K  3.8G   1% /mnt/wslg/versions.txt
+none            3.8G   76K  3.8G   1% /mnt/wslg/doc
+C:\             476G  130G  347G  28% /mnt/c
+tmpfs           777M   20K  777M   1% /run/user/1000
+
+------------ Uptime ------------
+ 03:15:52 up 7 min,  1 user,  load average: 0.03, 0.06, 0.01
+
+------------ Logged-in Users ------------
+bubai    pts/1        2026-07-28 03:08
+
+------------ Top CPU Processes ------------
+    PID USER     %CPU %MEM COMMAND
+    544 bubai     0.2  0.0 monitor.sh
+      1 root      0.0  0.1 systemd
+    338 root      0.0  0.0 Relay(339)
+     94 root      0.0  0.0 systemd-udevd
+    204 root      0.0  0.3 unattended-upgr
+
+------------ Top Memory Processes ------------
+    PID USER     %CPU %MEM COMMAND
+    204 root      0.0  0.3 unattended-upgr
+     42 root      0.0  0.1 systemd-journal
+    185 root      0.0  0.1 wsl-pro-service
+    153 systemd+  0.0  0.1 systemd-resolve
+      1 root      0.0  0.1 systemd
